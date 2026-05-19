@@ -4,5 +4,9 @@
     "@apollo/server": "^5.5.1",
     "graphql": "^16.14.0"
   },
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start2": "nodemon server2.js"
+  }
 }
